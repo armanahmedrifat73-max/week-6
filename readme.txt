@@ -1,0 +1,1 @@
+This repository contains the refactored Sydney Coffee management system.
