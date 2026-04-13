@@ -38,7 +38,7 @@ namespace SydneyCoffee
                 // Input Validation Loop
                 do
                 {
-                    Console.Write($"Enter the number of coffee beans bags ({MIN_BAGS}-{MAX_BAGS}kg): ");
+                    Console.Write($"Please Enter the number of coffee beans bags ({MIN_BAGS}-{MAX_BAGS}kg): ");
                     if (int.TryParse(Console.ReadLine(), out int qty))
                     {
                         cust.Quantity = qty;
